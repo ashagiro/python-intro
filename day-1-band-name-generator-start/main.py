@@ -1,0 +1,6 @@
+print("Welcome to the Hero Name Generator!\n")
+print("What is your favourite color?")
+favourite_color = input()
+print("What is yor favourite food?")
+favourite_food = input()
+print("Your hero name is " + favourite_color + " " + favourite_food)
