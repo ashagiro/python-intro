@@ -29,6 +29,7 @@ while not end_of_game:
         print("You won!")
         end_of_game = True
     if lives == 0:
+        print(f"Correct answer was: {chosen_word}")
         print("You lose!")
         end_of_game = True
     print(hangman_art.stages[lives])
